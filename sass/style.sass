@@ -1,0 +1,36 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: 0
+
+$color-blue: #5290ea
+$color-orange: #F28B64
+$color-grey: #E2E2E2
+$background-color: #F0F0F0
+
+.container
+    max-width: 1140
+    margin: 0 auto
+
+.main-section
+    min-height: 800px
+    background-color: $background-color
+    padding-top: 16px
+    &__logo
+        width: 152px
+    &__nav-container
+        display: flex
+        justify-content: space-between
+        aling-items: center
+        height: 70px
+
+.nav-menu
+    &__list
+        display: flex
+        gap: 64px
+    &__list-item
+        font-size: 18px
+        font-weight: 600
+        list-style-type: none
+        a
+            text-decoration: none
