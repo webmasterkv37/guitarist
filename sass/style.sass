@@ -7,6 +7,7 @@ $color-blue: #5290ea
 $color-orange: #F28B64
 $color-grey: #E2E2E2
 $background-color: #F0F0F0
+$box-shadow: 0 4px 4px rgba(0,0,0,0.25)
 
 .container
     max-width: 1140px
@@ -16,8 +17,6 @@ $background-color: #F0F0F0
     min-height: 800px
     background-color: $background-color
     padding-top: 16px
-    position: relative
-    z-index: -5
     &__logo
         width: 152px
     &__nav-container
@@ -26,7 +25,7 @@ $background-color: #F0F0F0
         aling-items: center
         height: 70px
     &__content-container
-        isplay: flex
+        display: flex
 
 .nav-menu
     &__list
@@ -51,7 +50,7 @@ $background-color: #F0F0F0
         top: 120px
         left: -30px
         border-radius: 100px
-        z-index: -3
+        box-shadow: $box-shadow
     &__rectangle-orange
         position: absolute
         height: 220px
@@ -61,7 +60,7 @@ $background-color: #F0F0F0
         top: 130px
         left: -8px
         border-radius: 100px
-        z-index: -1
+        box-shadow: $box-shadow
     &__rectangle-grey
         position: absolute
         height: 220px
@@ -71,7 +70,7 @@ $background-color: #F0F0F0
         top: 180px
         left: 20px
         border-radius: 100px
-        z-index: -2
-    &__left-wrapper__img
-        z-index: -4
+        box-shadow: $box-shadow
+    &__img
         position: relative
+        width: 880px

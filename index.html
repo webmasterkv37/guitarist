@@ -10,6 +10,10 @@
     />
     <title>Портфолио гитариста</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <section class="main-section">
@@ -31,16 +35,34 @@
       </div>
       <div class="container main-section__content-container">
         <div class="left-wrapper">
+          <div class="left-wrapper__rectangle-blue"></div>
+          <div class="left-wrapper__rectangle-grey"></div>
+          <div class="left-wrapper__rectangle-orange"></div>
           <img
             src="img/gitarist.png"
             alt="гитарист"
             class="left-wrapper__img"
           />
-          <div class="left-wrapper__rectangle-blue"></div>
-          <div class="left-wrapper__rectangle-orange"></div>
-          <div class="left-wrapper__rectangle-grey"></div>
         </div>
-        <div class="right-wrapper"></div>
+        <div class="right-wrapper">
+          <div class="right-wrapper_icon-box icons">
+            <div class="icons__item"><i class="bi bi-wechat"></i></div>
+            <div class="icons__item"><i class="bi bi-google"></i></div>
+            <div class="icons__item"><i class="bi bi-telegram"></i></div>
+            <div class="icons__item"><i class="bi bi-microsoft-teams"></i></div>
+            <h1 class="right-wrapper__title title">Я Виктор</h1>
+            <p class="right-wrapper__text">
+              Репетитор игры на гитаре с семилетним опытом преподавания
+            </p>
+            <div class="right-wrapper__button buttons">
+              <button class="buttons__main-btn">Забронировать урок</button>
+              <div class="right-wrapper__icon-btn buttons__icon-btn">
+                <img src="icons/chat.svg" alt="" />
+                <p class="buttons__text">Есть вопросы?</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="section-courses"></section>
