@@ -9,7 +9,7 @@
       content="Лучший репетитор игры на гитаре в Иванове"
     />
     <title>Портфолио гитариста</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
@@ -71,40 +71,90 @@
       <div class="section-courses__container container">
         <h2 class="section-courses__title title">Преподаю</h2>
         <div class="section-courses__cards-box">
-          <div class="section-courses__cards-item cards-item">
-            <img src="img/elektro.png" alt="" class="cards-item__img" />
-            <p class="cards-item__text">Электрогитара</p>
+          <div
+            class="section-courses__cards-item cards-item cards-item_grey"
+            onmouseenter="new Audio('sounds/elektrogitara.mp3').play()"
+          >
+            <img
+              src="img/elektro.png"
+              alt="Фотография электрогитары"
+              class="cards-item__img"
+            />
+            <p class="cards-item__text">Электро<br />гитара</p>
           </div>
-          <div class="section-courses__cards-item cards-item">
-            <img src="img/akustika.png" alt="" class="cards-item__img" />
-            <p class="cards-item__text">Акустическая гитара</p>
+          <div
+            class="section-courses__cards-item cards-item cards-item_orange"
+            onmouseenter="new Audio('sounds/akusticheskaya.mp3').play()"
+          >
+            <img
+              src="img/akustika.png"
+              alt="Фотография акустической гитары"
+              class="cards-item__img"
+            />
+            <p class="cards-item__text">Акустическая<br />гитара</p>
           </div>
-          <div class="section-courses__cards-item cards-item">
-            <img src="img/ukulele.png" alt="" class="cards-item__img" />
-            <p class="cards-item__text">Укулеле гитара</p>
+          <div
+            class="section-courses__cards-item cards-item cards-item_blue"
+            onmouseenter="new Audio('sounds/ukulele.mp3').play()"
+          >
+            <img
+              src="img/ukulele.png"
+              alt="Фотография гитары укулеле"
+              class="cards-item__img"
+            />
+            <p class="cards-item__text">Гитара<br />укулеле</p>
           </div>
         </div>
         <div class="section-courses__icons-box">
           <div class="section-courses__icons-item icons-item">
-            <img src="icons/kubok.svg" alt="" class="icons-item__img" />
-            <p class="icons-item__text"><span>7</span> лет преподавания</p>
+            <img src="icons/kubok.svg" alt="Кубок" class="icons-item__img" />
+            <p class="icons-item__text">
+              <span>7</span><br />
+              лет<br />
+              преподавания
+            </p>
           </div>
           <div class="section-courses__icons-item icons-item">
-            <img src="icons/A_plus.svg" alt="" class="icons-item__img" />
-            <p class="icons-item__text"><span>276</span> отзывов на 5 звезд</p>
+            <img
+              src="icons/A_plus.svg"
+              alt="Буква А+"
+              class="icons-item__img"
+            />
+            <p class="icons-item__text">
+              <span>276</span><br />
+              отзывов<br />
+              на 5 звезд
+            </p>
           </div>
           <div class="section-courses__icons-item icons-item">
-            <img src="icons/shapka.svg" alt="" class="icons-item__img" />
-            <p class="icons-item__text"><span>314</span> студентов обученно</p>
+            <img
+              src="icons/shapka.svg"
+              alt="Академическая шапка"
+              class="icons-item__img"
+            />
+            <p class="icons-item__text">
+              <span>314</span><br />
+              студентов<br />
+              обучено
+            </p>
           </div>
           <div class="section-courses__icons-item icons-item">
-            <img src="icons/key.svg" alt="" class="icons-item__img" />
-            <p class="icons-item__text"><span>2000</span> часов преподавания</p>
+            <img
+              src="icons/key.svg"
+              alt="Скрипичный ключ"
+              class="icons-item__img"
+            />
+            <p class="icons-item__text">
+              <span>2000</span><br />
+              часов<br />
+              преподавания
+            </p>
           </div>
         </div>
+        <div class="section-courses__first-ring ring ring_white"></div>
+        <div class="section-courses__second-ring ring ring_white"></div>
       </div>
     </section>
-    10
     <section class="section-learning"></section>
     <footer class="footer"></footer>
   </body>
