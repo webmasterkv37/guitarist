@@ -180,10 +180,10 @@ $box-shadow: 0 4px 4px rgba(0,0,0,0.25)
 
 .section-courses
     min-height: 700px
-    position: relative
     overflow: hidden
     &__container
         padding-top: 30px
+        position: relative
     &__title
         padding-bottom: 40px
     &__cards-box
@@ -195,13 +195,13 @@ $box-shadow: 0 4px 4px rgba(0,0,0,0.25)
         justify-content: space-evenly
     &__first-ring
         position: absolute
-        top: 370px
-        left: 70px
+        top: 380px
+        left: -100px
         z-index: -1
     &__second-ring
         position: absolute
-        top: 45px
-        right: 70px
+        top: 60px
+        right: -90px
         z-index: -1
 .cards-item
     height: 360px
@@ -240,3 +240,25 @@ $box-shadow: 0 4px 4px rgba(0,0,0,0.25)
         span
             font-size: 48px
             font-weight: 600
+
+.section-learning
+    min-height: 700px
+    background-color: $background-color
+    overflow: hidden
+    &__container
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__right-wrapper
+        max-width: 500px
+        position: relative
+    &__first-ring
+        position: absolute
+        top: 140px
+        left: 285px
+    &__left-wrapper
+        position: relative
+    &__second-ring
+        position: absolute
+        top: -120px
+        right: -300px
