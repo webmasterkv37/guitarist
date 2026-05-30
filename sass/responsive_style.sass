@@ -26,6 +26,8 @@
         min-height: 55rem
 
 @media (max-width: 770px)
+    .hamburger
+        display: flex
     .nav-menu
         display: none
     .icons
@@ -64,5 +66,51 @@
         .right-wrapper
             max-width: 80%
             margin: 0 auto
+    .footer
+        &__img
+            height: 50%
+        &__title
+            font-size: 5rem
 
 @media (max-width: 590px)
+    .left-wrapper
+        &__img
+            display: none
+    .main-section
+        &__first-ring
+            display: none
+    .right-wrapper
+        left: 12rem
+    .cards-item
+        &__text
+            transform: rotate(90deg)
+    .footer
+        &__img
+            display: none
+        &__container
+            text-align: center
+        &__wrapper
+            width: 100%
+        &__icon-box
+            justify-content: center
+
+@media (max-width: 380px)
+
+    .right-wrapper
+        left: 5.5rem
+    .cards-item
+        height: 26rem
+        &__text
+            width: 30rem
+            font-size: 3rem
+            top: 10rem
+    .icons-item
+        &__text
+            span
+                font-size: 4.3rem
+    .section-learning
+        &__title
+            font-size: 5rem
+    .buttons
+        &__text
+            display: none
